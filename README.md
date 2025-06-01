@@ -21,5 +21,14 @@ Gender Detection:
   - Ex:
 
     ![Ảnh chụp màn hình 2025-06-01 174305](https://github.com/user-attachments/assets/300e2d46-86f7-45b1-8b64-39bef4d6f4b4)
+    
+Real time :
+
+  ![Ảnh chụp màn hình 2025-05-29 161824](https://github.com/user-attachments/assets/e5c59b17-c040-4680-9a50-d28ced7759d5)
+
+Instructions:
+
+
+
 
 
