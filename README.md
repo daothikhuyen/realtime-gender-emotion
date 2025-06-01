@@ -26,8 +26,6 @@ Real time :
 
   ![Ảnh chụp màn hình 2025-05-29 161824](https://github.com/user-attachments/assets/e5c59b17-c040-4680-9a50-d28ced7759d5)
 
-Instructions:
-
 
 
 
