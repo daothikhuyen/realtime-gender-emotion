@@ -132,32 +132,29 @@ main_frame.pack(fill=tk.BOTH, expand=True)
 main_frame.pack_propagate(False)
 main_frame.configure(width=1050, height=620)
 
-# Tiêu đề
+# Title
 label_title = tk.Label(main_frame, text='PREDICT GENDER AND EMOTION BASED ON HUMAN FACES',
                        font=("Arial", 20), fg="red", bg='#f0e0c2')
 label_title2 = tk.Label(main_frame, text='MyDang, DaoKhuyen',
                         font=("Arial", 15), fg="green", bg='#f0e0c2')
 
-# Label hiển thị camera
+# Camera display label
 image_label = tk.Label(main_frame, bg='#f0e0c2')
 image_label.place(x=160, y=110, width=750, height=450)
 
-# Nút EXIT
+# Button EXIT
 def quit_program():
     if messagebox.askyesno("Quit", "Do you want to exit?"):
         root.destroy()
 
-# Nút START
 start_button = tk.Button(main_frame, text="START", font=('Bold', 15), fg='white', bd=0,
                          bg='green', command=use_camera)
 start_button.place(x=300, y=570, width=80, height=35)
 
-# Nút STOP
 stop_button = tk.Button(main_frame, text="STOP", font=('Bold', 15), fg='white', bd=0,
                         bg='green', command=cancel_feed, state="disabled")
 stop_button.place(x=500, y=570, width=80, height=35)
 
-# Nút EXIT
 exit_button = tk.Button(main_frame, text="EXIT", font=('Bold', 15), fg='white', bd=0,
                         bg='green', command=quit_program, state="normal")
 exit_button.place(x=700, y=570, width=80, height=35)
