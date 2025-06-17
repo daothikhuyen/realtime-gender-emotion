@@ -2,6 +2,8 @@
 
 Real-time face detection and emotion/gender classification using FER-2013/Gender Classification Dataset datasets with a keras CNN model and Mediapipe.
 
+Trained CNN and ResNet models for real-time facial emotion recognition; selected CNN for its higher accuracy 
+
 gender classification test accuracy: 97%.
 
 fer2013 emotion classification test accuracy: 75%.
